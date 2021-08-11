@@ -1,0 +1,30 @@
+<html>
+   <head>
+   <link href="css/copy.css" rel="stylesheet">
+   <script src="script/script1.js"></script>
+   </head> 
+   <body>
+    <header>
+        <h3>Lab 7:JavaScript Arithmetic Operator</h3>
+    </header><section>
+        <form name="calculator" action='' method='GET'>
+            <fieldset>
+                <legend>My calculator</legend>
+                <textarea  id="text" rows="3" cols="20"></textarea>
+                <br>             
+            </fieldset>
+            <fieldset>
+                <legend>Input</legend>
+                <label for="operands">Operands:</label>&nbsp;
+                <input type="text" id="operands1" name="op" size="4">
+                <input type="text" id="operands2" name="op" size="4">
+                <label for="Operator">Operator:</label>&nbsp;
+                <input type="button" value="+" name="submit" size="2" onclick="addValue()">
+                <input type="button" value="&times" name="submit" size="2" onclick="multiplyValue()">
+                <input type="button" value=":" name="submit" size="2" onclick="divideValue()">
+                <input type="reset" value="clear">
+            </fieldset>               
+        </form></section>
+        <footer></footer>
+</body>  
+</html>
